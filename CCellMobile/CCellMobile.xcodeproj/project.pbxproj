@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7ABDE0691B0B465C00C3C963 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE0681B0B465C00C3C963 /* main.m */; };
+		7ABDE06C1B0B465C00C3C963 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE06B1B0B465C00C3C963 /* AppDelegate.m */; };
+		7ABDE06F1B0B465C00C3C963 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE06E1B0B465C00C3C963 /* ViewController.m */; };
+		7ABDE0721B0B465C00C3C963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDE0701B0B465C00C3C963 /* Main.storyboard */; };
+		7ABDE0741B0B465C00C3C963 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDE0731B0B465C00C3C963 /* Images.xcassets */; };
+		7ABDE0771B0B465C00C3C963 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDE0751B0B465C00C3C963 /* LaunchScreen.xib */; };
+		7ABDE0831B0B465C00C3C963 /* CCellMobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE0821B0B465C00C3C963 /* CCellMobileTests.m */; };
+		7ABDE0971B0B46AD00C3C963 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE0961B0B46AD00C3C963 /* InterfaceController.m */; };
+		7ABDE09A1B0B46AD00C3C963 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE0991B0B46AD00C3C963 /* NotificationController.m */; };
+		7ABDE09D1B0B46AD00C3C963 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE09C1B0B46AD00C3C963 /* GlanceController.m */; };
+		7ABDE09F1B0B46AD00C3C963 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDE09E1B0B46AD00C3C963 /* Images.xcassets */; };
+		7ABDE0A31B0B46AD00C3C963 /* CCellMobile WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDE0A21B0B46AD00C3C963 /* CCellMobile WatchKit App.app */; };
+		7ABDE0AB1B0B46AD00C3C963 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDE0A91B0B46AD00C3C963 /* Interface.storyboard */; };
+		7ABDE0AD1B0B46AD00C3C963 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDE0AC1B0B46AD00C3C963 /* Images.xcassets */; };
+		7ABDE0B01B0B46AD00C3C963 /* CCellMobile WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7ABDE0901B0B46AD00C3C963 /* CCellMobile WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7ABDE0BA1B0B5A8100C3C963 /* DetailInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE0B91B0B5A8100C3C963 /* DetailInterfaceController.m */; };
+		7ABDE0BC1B0B615000C3C963 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABDE0BB1B0B615000C3C963 /* CoreLocation.framework */; };
+		7ABDE0BE1B0B616800C3C963 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABDE0BD1B0B616800C3C963 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7ABDE07D1B0B465C00C3C963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ABDE05B1B0B465C00C3C963 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ABDE0621B0B465C00C3C963;
+			remoteInfo = CCellMobile;
+		};
+		7ABDE0A41B0B46AD00C3C963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ABDE05B1B0B465C00C3C963 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ABDE0A11B0B46AD00C3C963;
+			remoteInfo = "CCellMobile WatchKit App";
+		};
+		7ABDE0AE1B0B46AD00C3C963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ABDE05B1B0B465C00C3C963 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ABDE08F1B0B46AD00C3C963;
+			remoteInfo = "CCellMobile WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7ABDE0B71B0B46AD00C3C963 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7ABDE0B01B0B46AD00C3C963 /* CCellMobile WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7ABDE0631B0B465C00C3C963 /* CCellMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCellMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABDE0671B0B465C00C3C963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABDE0681B0B465C00C3C963 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7ABDE06A1B0B465C00C3C963 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7ABDE06B1B0B465C00C3C963 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7ABDE06D1B0B465C00C3C963 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7ABDE06E1B0B465C00C3C963 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7ABDE0711B0B465C00C3C963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7ABDE0731B0B465C00C3C963 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7ABDE0761B0B465C00C3C963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7ABDE07C1B0B465C00C3C963 /* CCellMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCellMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABDE0811B0B465C00C3C963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABDE0821B0B465C00C3C963 /* CCellMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCellMobileTests.m; sourceTree = "<group>"; };
+		7ABDE0901B0B46AD00C3C963 /* CCellMobile WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CCellMobile WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABDE0931B0B46AD00C3C963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABDE0941B0B46AD00C3C963 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		7ABDE0951B0B46AD00C3C963 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		7ABDE0961B0B46AD00C3C963 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		7ABDE0981B0B46AD00C3C963 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		7ABDE0991B0B46AD00C3C963 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		7ABDE09B1B0B46AD00C3C963 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		7ABDE09C1B0B46AD00C3C963 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		7ABDE09E1B0B46AD00C3C963 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7ABDE0A21B0B46AD00C3C963 /* CCellMobile WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CCellMobile WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABDE0A81B0B46AD00C3C963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABDE0AA1B0B46AD00C3C963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		7ABDE0AC1B0B46AD00C3C963 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7ABDE0B81B0B5A8100C3C963 /* DetailInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailInterfaceController.h; sourceTree = "<group>"; };
+		7ABDE0B91B0B5A8100C3C963 /* DetailInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailInterfaceController.m; sourceTree = "<group>"; };
+		7ABDE0BB1B0B615000C3C963 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7ABDE0BD1B0B616800C3C963 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ABDE0601B0B465C00C3C963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABDE0791B0B465C00C3C963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABDE08D1B0B46AD00C3C963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABDE0BE1B0B616800C3C963 /* MapKit.framework in Frameworks */,
+				7ABDE0BC1B0B615000C3C963 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ABDE05A1B0B465C00C3C963 = {
+			isa = PBXGroup;
+			children = (
+				7ABDE0BD1B0B616800C3C963 /* MapKit.framework */,
+				7ABDE0BB1B0B615000C3C963 /* CoreLocation.framework */,
+				7ABDE0651B0B465C00C3C963 /* CCellMobile */,
+				7ABDE07F1B0B465C00C3C963 /* CCellMobileTests */,
+				7ABDE0911B0B46AD00C3C963 /* CCellMobile WatchKit Extension */,
+				7ABDE0A61B0B46AD00C3C963 /* CCellMobile WatchKit App */,
+				7ABDE0641B0B465C00C3C963 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7ABDE0641B0B465C00C3C963 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE0631B0B465C00C3C963 /* CCellMobile.app */,
+				7ABDE07C1B0B465C00C3C963 /* CCellMobileTests.xctest */,
+				7ABDE0901B0B46AD00C3C963 /* CCellMobile WatchKit Extension.appex */,
+				7ABDE0A21B0B46AD00C3C963 /* CCellMobile WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ABDE0651B0B465C00C3C963 /* CCellMobile */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE06A1B0B465C00C3C963 /* AppDelegate.h */,
+				7ABDE06B1B0B465C00C3C963 /* AppDelegate.m */,
+				7ABDE06D1B0B465C00C3C963 /* ViewController.h */,
+				7ABDE06E1B0B465C00C3C963 /* ViewController.m */,
+				7ABDE0701B0B465C00C3C963 /* Main.storyboard */,
+				7ABDE0731B0B465C00C3C963 /* Images.xcassets */,
+				7ABDE0751B0B465C00C3C963 /* LaunchScreen.xib */,
+				7ABDE0661B0B465C00C3C963 /* Supporting Files */,
+			);
+			path = CCellMobile;
+			sourceTree = "<group>";
+		};
+		7ABDE0661B0B465C00C3C963 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE0671B0B465C00C3C963 /* Info.plist */,
+				7ABDE0681B0B465C00C3C963 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7ABDE07F1B0B465C00C3C963 /* CCellMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE0821B0B465C00C3C963 /* CCellMobileTests.m */,
+				7ABDE0801B0B465C00C3C963 /* Supporting Files */,
+			);
+			path = CCellMobileTests;
+			sourceTree = "<group>";
+		};
+		7ABDE0801B0B465C00C3C963 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE0811B0B465C00C3C963 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7ABDE0911B0B46AD00C3C963 /* CCellMobile WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE0951B0B46AD00C3C963 /* InterfaceController.h */,
+				7ABDE0961B0B46AD00C3C963 /* InterfaceController.m */,
+				7ABDE0B81B0B5A8100C3C963 /* DetailInterfaceController.h */,
+				7ABDE0B91B0B5A8100C3C963 /* DetailInterfaceController.m */,
+				7ABDE0981B0B46AD00C3C963 /* NotificationController.h */,
+				7ABDE0991B0B46AD00C3C963 /* NotificationController.m */,
+				7ABDE09B1B0B46AD00C3C963 /* GlanceController.h */,
+				7ABDE09C1B0B46AD00C3C963 /* GlanceController.m */,
+				7ABDE09E1B0B46AD00C3C963 /* Images.xcassets */,
+				7ABDE0921B0B46AD00C3C963 /* Supporting Files */,
+			);
+			path = "CCellMobile WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		7ABDE0921B0B46AD00C3C963 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE0931B0B46AD00C3C963 /* Info.plist */,
+				7ABDE0941B0B46AD00C3C963 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7ABDE0A61B0B46AD00C3C963 /* CCellMobile WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE0A91B0B46AD00C3C963 /* Interface.storyboard */,
+				7ABDE0AC1B0B46AD00C3C963 /* Images.xcassets */,
+				7ABDE0A71B0B46AD00C3C963 /* Supporting Files */,
+			);
+			path = "CCellMobile WatchKit App";
+			sourceTree = "<group>";
+		};
+		7ABDE0A71B0B46AD00C3C963 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ABDE0A81B0B46AD00C3C963 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ABDE0621B0B465C00C3C963 /* CCellMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ABDE0861B0B465C00C3C963 /* Build configuration list for PBXNativeTarget "CCellMobile" */;
+			buildPhases = (
+				7ABDE05F1B0B465C00C3C963 /* Sources */,
+				7ABDE0601B0B465C00C3C963 /* Frameworks */,
+				7ABDE0611B0B465C00C3C963 /* Resources */,
+				7ABDE0B71B0B46AD00C3C963 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ABDE0AF1B0B46AD00C3C963 /* PBXTargetDependency */,
+			);
+			name = CCellMobile;
+			productName = CCellMobile;
+			productReference = 7ABDE0631B0B465C00C3C963 /* CCellMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7ABDE07B1B0B465C00C3C963 /* CCellMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ABDE0891B0B465C00C3C963 /* Build configuration list for PBXNativeTarget "CCellMobileTests" */;
+			buildPhases = (
+				7ABDE0781B0B465C00C3C963 /* Sources */,
+				7ABDE0791B0B465C00C3C963 /* Frameworks */,
+				7ABDE07A1B0B465C00C3C963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ABDE07E1B0B465C00C3C963 /* PBXTargetDependency */,
+			);
+			name = CCellMobileTests;
+			productName = CCellMobileTests;
+			productReference = 7ABDE07C1B0B465C00C3C963 /* CCellMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7ABDE08F1B0B46AD00C3C963 /* CCellMobile WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ABDE0B41B0B46AD00C3C963 /* Build configuration list for PBXNativeTarget "CCellMobile WatchKit Extension" */;
+			buildPhases = (
+				7ABDE08C1B0B46AD00C3C963 /* Sources */,
+				7ABDE08D1B0B46AD00C3C963 /* Frameworks */,
+				7ABDE08E1B0B46AD00C3C963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ABDE0A51B0B46AD00C3C963 /* PBXTargetDependency */,
+			);
+			name = "CCellMobile WatchKit Extension";
+			productName = "CCellMobile WatchKit Extension";
+			productReference = 7ABDE0901B0B46AD00C3C963 /* CCellMobile WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		7ABDE0A11B0B46AD00C3C963 /* CCellMobile WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ABDE0B11B0B46AD00C3C963 /* Build configuration list for PBXNativeTarget "CCellMobile WatchKit App" */;
+			buildPhases = (
+				7ABDE0A01B0B46AD00C3C963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CCellMobile WatchKit App";
+			productName = "CCellMobile WatchKit App";
+			productReference = 7ABDE0A21B0B46AD00C3C963 /* CCellMobile WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ABDE05B1B0B465C00C3C963 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Christian Lysne";
+				TargetAttributes = {
+					7ABDE0621B0B465C00C3C963 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					7ABDE07B1B0B465C00C3C963 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 7ABDE0621B0B465C00C3C963;
+					};
+					7ABDE08F1B0B46AD00C3C963 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					7ABDE0A11B0B46AD00C3C963 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7ABDE05E1B0B465C00C3C963 /* Build configuration list for PBXProject "CCellMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ABDE05A1B0B465C00C3C963;
+			productRefGroup = 7ABDE0641B0B465C00C3C963 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ABDE0621B0B465C00C3C963 /* CCellMobile */,
+				7ABDE07B1B0B465C00C3C963 /* CCellMobileTests */,
+				7ABDE08F1B0B46AD00C3C963 /* CCellMobile WatchKit Extension */,
+				7ABDE0A11B0B46AD00C3C963 /* CCellMobile WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ABDE0611B0B465C00C3C963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABDE0721B0B465C00C3C963 /* Main.storyboard in Resources */,
+				7ABDE0771B0B465C00C3C963 /* LaunchScreen.xib in Resources */,
+				7ABDE0741B0B465C00C3C963 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABDE07A1B0B465C00C3C963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABDE08E1B0B46AD00C3C963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABDE0A31B0B46AD00C3C963 /* CCellMobile WatchKit App.app in Resources */,
+				7ABDE09F1B0B46AD00C3C963 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABDE0A01B0B46AD00C3C963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABDE0AB1B0B46AD00C3C963 /* Interface.storyboard in Resources */,
+				7ABDE0AD1B0B46AD00C3C963 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ABDE05F1B0B465C00C3C963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABDE06F1B0B465C00C3C963 /* ViewController.m in Sources */,
+				7ABDE06C1B0B465C00C3C963 /* AppDelegate.m in Sources */,
+				7ABDE0691B0B465C00C3C963 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABDE0781B0B465C00C3C963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABDE0831B0B465C00C3C963 /* CCellMobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ABDE08C1B0B46AD00C3C963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABDE09A1B0B46AD00C3C963 /* NotificationController.m in Sources */,
+				7ABDE0971B0B46AD00C3C963 /* InterfaceController.m in Sources */,
+				7ABDE0BA1B0B5A8100C3C963 /* DetailInterfaceController.m in Sources */,
+				7ABDE09D1B0B46AD00C3C963 /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7ABDE07E1B0B465C00C3C963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ABDE0621B0B465C00C3C963 /* CCellMobile */;
+			targetProxy = 7ABDE07D1B0B465C00C3C963 /* PBXContainerItemProxy */;
+		};
+		7ABDE0A51B0B46AD00C3C963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ABDE0A11B0B46AD00C3C963 /* CCellMobile WatchKit App */;
+			targetProxy = 7ABDE0A41B0B46AD00C3C963 /* PBXContainerItemProxy */;
+		};
+		7ABDE0AF1B0B46AD00C3C963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ABDE08F1B0B46AD00C3C963 /* CCellMobile WatchKit Extension */;
+			targetProxy = 7ABDE0AE1B0B46AD00C3C963 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7ABDE0701B0B465C00C3C963 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ABDE0711B0B465C00C3C963 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7ABDE0751B0B465C00C3C963 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ABDE0761B0B465C00C3C963 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		7ABDE0A91B0B46AD00C3C963 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ABDE0AA1B0B46AD00C3C963 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ABDE0841B0B465C00C3C963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7ABDE0851B0B465C00C3C963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ABDE0871B0B465C00C3C963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCellMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7ABDE0881B0B465C00C3C963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCellMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7ABDE08A1B0B465C00C3C963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CCellMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCellMobile.app/CCellMobile";
+			};
+			name = Debug;
+		};
+		7ABDE08B1B0B465C00C3C963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CCellMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCellMobile.app/CCellMobile";
+			};
+			name = Release;
+		};
+		7ABDE0B21B0B46AD00C3C963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = CCellMobile_WatchKit_Extension;
+				INFOPLIST_FILE = "CCellMobile WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		7ABDE0B31B0B46AD00C3C963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = CCellMobile_WatchKit_Extension;
+				INFOPLIST_FILE = "CCellMobile WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		7ABDE0B51B0B46AD00C3C963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CCellMobile WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7ABDE0B61B0B46AD00C3C963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CCellMobile WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ABDE05E1B0B465C00C3C963 /* Build configuration list for PBXProject "CCellMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABDE0841B0B465C00C3C963 /* Debug */,
+				7ABDE0851B0B465C00C3C963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ABDE0861B0B465C00C3C963 /* Build configuration list for PBXNativeTarget "CCellMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABDE0871B0B465C00C3C963 /* Debug */,
+				7ABDE0881B0B465C00C3C963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7ABDE0891B0B465C00C3C963 /* Build configuration list for PBXNativeTarget "CCellMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABDE08A1B0B465C00C3C963 /* Debug */,
+				7ABDE08B1B0B465C00C3C963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7ABDE0B11B0B46AD00C3C963 /* Build configuration list for PBXNativeTarget "CCellMobile WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABDE0B21B0B46AD00C3C963 /* Debug */,
+				7ABDE0B31B0B46AD00C3C963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7ABDE0B41B0B46AD00C3C963 /* Build configuration list for PBXNativeTarget "CCellMobile WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABDE0B51B0B46AD00C3C963 /* Debug */,
+				7ABDE0B61B0B46AD00C3C963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ABDE05B1B0B465C00C3C963 /* Project object */;
+}
