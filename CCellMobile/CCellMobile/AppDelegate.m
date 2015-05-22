@@ -45,14 +45,12 @@
 
 - (void)application:(UIApplication *)application handleWatchKitExtensionRequest:(NSDictionary *)userInfo reply:(void(^)(NSDictionary *replyInfo))reply {
     
-    NSString *state = [userInfo objectForKey:@"animationState"];
-    
-    reply(@{@"Updated for state:":state});
-    
     AppDelegate *tmpDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
     ViewController *vc = (ViewController *)((UINavigationController*)tmpDelegate.window.rootViewController).visibleViewController;
     
-    vc.stateLabel.text = state;
+    NSDictionary *serializedLocation = [vc getSerializedLocation];
+    
+    reply(@{@"location": serializedLocation});
 }
 
 @end

@@ -15,11 +15,7 @@
                                 <imageView width="136" height="119" alignment="center" verticalAlignment="center" hidden="YES" image="frame" contentMode="scaleAspectFill" initiallyAnimated="NO" id="uPc-aq-p69"/>
                             </items>
                         </group>
-                        <button width="1" alignment="center" title="Run dude!" id="BSW-AZ-6JL">
-                            <connections>
-                                <action selector="tappedRunButton" destination="AgC-eL-Hgc" id="7Fw-qO-rKH"/>
-                            </connections>
-                        </button>
+                        <label alignment="center" text="Label" id="ZeU-9Z-IcF"/>
                         <button width="1" alignment="left" title="Come find me!" id="Obo-j4-5NB">
                             <connections>
                                 <segue destination="t9a-hc-DXB" kind="push" identifier="moveSegue" id="CbL-lW-pye"/>
@@ -27,8 +23,8 @@
                         </button>
                     </items>
                     <connections>
-                        <outlet property="animationButton" destination="BSW-AZ-6JL" id="cCE-63-cC3"/>
                         <outlet property="animationImage" destination="uPc-aq-p69" id="npb-fl-fsG"/>
+                        <outlet property="speedLabel" destination="ZeU-9Z-IcF" id="Acv-8q-i0h"/>
                     </connections>
                 </controller>
             </objects>
@@ -63,7 +59,8 @@
             <objects>
                 <notificationController id="YCC-NB-fut">
                     <items>
-                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                        <label alignment="center" text="Boom! " id="XkS-y5-khE"/>
+                        <imageView alignment="left" image="frame" id="Vd8-rk-MV7"/>
                     </items>
                     <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
                     <connections>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0E936E1B0DF37600D99B48 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABDE0BD1B0B616800C3C963 /* MapKit.framework */; };
+		7A0E936F1B0DF37D00D99B48 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABDE0BB1B0B615000C3C963 /* CoreLocation.framework */; };
+		7A0E93711B0DF38300D99B48 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0E93701B0DF38300D99B48 /* SystemConfiguration.framework */; };
 		7ABDE0691B0B465C00C3C963 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE0681B0B465C00C3C963 /* main.m */; };
 		7ABDE06C1B0B465C00C3C963 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE06B1B0B465C00C3C963 /* AppDelegate.m */; };
 		7ABDE06F1B0B465C00C3C963 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDE06E1B0B465C00C3C963 /* ViewController.m */; };
@@ -66,6 +69,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7A0E93701B0DF38300D99B48 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7ABDE0631B0B465C00C3C963 /* CCellMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCellMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ABDE0671B0B465C00C3C963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ABDE0681B0B465C00C3C963 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -104,6 +108,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A0E93711B0DF38300D99B48 /* SystemConfiguration.framework in Frameworks */,
+				7A0E936F1B0DF37D00D99B48 /* CoreLocation.framework in Frameworks */,
+				7A0E936E1B0DF37600D99B48 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +136,7 @@
 		7ABDE05A1B0B465C00C3C963 = {
 			isa = PBXGroup;
 			children = (
+				7A0E93701B0DF38300D99B48 /* SystemConfiguration.framework */,
 				7ABDE0BD1B0B616800C3C963 /* MapKit.framework */,
 				7ABDE0BB1B0B615000C3C963 /* CoreLocation.framework */,
 				7ABDE0651B0B465C00C3C963 /* CCellMobile */,
@@ -680,6 +688,7 @@
 				7ABDE0881B0B465C00C3C963 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7ABDE0891B0B465C00C3C963 /* Build configuration list for PBXNativeTarget "CCellMobileTests" */ = {
 			isa = XCConfigurationList;
@@ -688,6 +697,7 @@
 				7ABDE08B1B0B465C00C3C963 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7ABDE0B11B0B46AD00C3C963 /* Build configuration list for PBXNativeTarget "CCellMobile WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -696,6 +706,7 @@
 				7ABDE0B31B0B46AD00C3C963 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7ABDE0B41B0B46AD00C3C963 /* Build configuration list for PBXNativeTarget "CCellMobile WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -704,6 +715,7 @@
 				7ABDE0B61B0B46AD00C3C963 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

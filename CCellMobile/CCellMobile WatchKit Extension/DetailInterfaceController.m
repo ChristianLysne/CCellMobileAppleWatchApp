@@ -23,8 +23,11 @@
     
     // Configure interface objects here.
     
-    CLLocationCoordinate2D coordinates = CLLocationCoordinate2DMake(59.91317,10.74188);
-    MKCoordinateSpan span = MKCoordinateSpanMake(0.01, 0.01);
+    NSNumber *latitude = context[@"lastLatitude"];
+    NSNumber *longitude = context[@"lastLongitude"];
+    
+    CLLocationCoordinate2D coordinates = CLLocationCoordinate2DMake(latitude.floatValue,longitude.floatValue);
+    MKCoordinateSpan span = MKCoordinateSpanMake(0.05, 0.05);
     
     // Other colors include red and green pins
     [self.map addAnnotation:coordinates withPinColor: WKInterfaceMapPinColorPurple];

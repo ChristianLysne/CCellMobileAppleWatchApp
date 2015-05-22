@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B3BAD89E-EC81-400C-BF31-C7C6C1AF3E49</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CCellMobile</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>52C6B2AB36B71EE9957D90E328F5BD9AE54FB86E</key>
+		<string>https://github.com/ChristianLysne/CCellMobileAppleWatchApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CCellMobile/CCellMobile.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>52C6B2AB36B71EE9957D90E328F5BD9AE54FB86E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ChristianLysne/CCellMobileAppleWatchApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>52C6B2AB36B71EE9957D90E328F5BD9AE54FB86E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>52C6B2AB36B71EE9957D90E328F5BD9AE54FB86E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CCellMobileAppleWatchApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
